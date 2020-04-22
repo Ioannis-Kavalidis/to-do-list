@@ -4,7 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./styles/main.css" />
     <title>To-Do-List</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="toDoList">
+        <input type="text" name="userData" id="userText" />
+        <button onclick="addToList()">To Do List</button>
+        <ol class="result"></ol>
+      </div>
+      <br />
+      <div class="taskDone">
+        <input type="text" name="userData2" id="userText2" />
+        <button onclick="addLastName()">Task done</button>
+        <ol class="return"></ol>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
 </html>
