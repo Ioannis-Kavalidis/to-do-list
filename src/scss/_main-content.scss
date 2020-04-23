@@ -52,3 +52,17 @@ button:active {
   font-size: 100%;
   cursor: pointer;
 }
+
+ul li {
+  position: relative;
+  transition: 0.5s;
+}
+
+.close {
+  padding: 0.5rem;
+  margin-left: 3rem;
+  &:hover {
+    background-color: lightsteelblue;
+    color: red;
+  }
+}
